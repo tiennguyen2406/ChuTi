@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://dulieu.onrender.com';
 
 export const OrderService = {
   async saveOrder(order) {
