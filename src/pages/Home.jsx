@@ -15,7 +15,7 @@ const Home = () => {
   const productsPerPage = 5;
 
   useEffect(() => {
-    fetch("https://my-json-server.onrender.com/products")
+    fetch("https://dulieu.onrender.com/products")
       .then(res => res.json())
       .then(data => {
         setProducts(data);

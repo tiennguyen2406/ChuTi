@@ -22,7 +22,7 @@ const ChiTietDanhMuc = () => {
 
   useEffect(() => {
     // Fetch sản phẩm theo danh mục
-    fetch("https://my-json-server.onrender.com/products")
+    fetch("https://dulieu.onrender.com/products")
       .then((res) => res.json())
       .then((data) => {
         const filteredProducts = data.filter((product) => product.category === category);

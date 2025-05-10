@@ -11,7 +11,7 @@ const Products = ({ filterCategories, scrollToTopType, showAddToCart = false }) 
   const productsPerPage = 18;
 
   useEffect(() => {
-    fetch('https://my-json-server.onrender.com/products')
+    fetch('https://dulieu.onrender.com/products')
       .then(response => response.json())
       .then(data => {
         setProducts(data);

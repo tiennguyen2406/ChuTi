@@ -11,7 +11,7 @@ const SearchResult = () => {
 
   useEffect(() => {
     setLoading(true);
-    fetch("https://my-json-server.onrender.com/products")
+    fetch("https://dulieu.onrender.com/products")
       .then((res) => res.json())
       .then((data) => {
         setProducts(data);
