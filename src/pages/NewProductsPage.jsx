@@ -17,7 +17,7 @@ const NewProductsPage = () => {
 
   useEffect(() => {
     // Fetch products from db.json
-    fetch('http://localhost:3000/products')
+    fetch('https://my-json-server.onrender.com/products')
       .then((response) => response.json())
       .then((data) => {
         setProducts(data);
